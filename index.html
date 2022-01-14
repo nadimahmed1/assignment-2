@@ -64,6 +64,18 @@
 
         }
 
+        /* logos  */
+
+        .logos {
+            display: flex;
+            margin: 10%;
+            justify-content: center;
+            grid-gap: 5%;
+
+
+
+        }
+
         /* popular collection  */
         .popular {
             text-align: center;
@@ -135,6 +147,29 @@
 
         }
 
+        /* optional part  */
+        .featured-image img {
+            width: 65%;
+        }
+
+        .featured {
+            display: flex;
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-bottom: 10%;
+        }
+
+        .join-now {
+
+            background-color: rgb(223, 31, 31);
+            padding: 10px 40px;
+            padding-bottom: 10px;
+            border-radius: 2%;
+            color: thistle;
+            text-decoration: none;
+            font-weight: 800;
+        }
+
         /* copy right  */
 
         .product {
@@ -164,7 +199,7 @@
         .copy-right {
 
             background-color: black;
-            padding-top: 2%;
+            padding-top: 1%;
             padding-bottom: 2%;
         }
     </style>
@@ -193,6 +228,24 @@
                 </div>
 
             </section>
+            <!-- logo part  -->
+            <section class="container">
+                <hr>
+                <div class="logos">
+
+                    <div class="logo"><img src="logos/Alibaba.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Amazon.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Daraz.pk Logo.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Ebay.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Rakuten.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Target.svg" alt=""></div>
+                    <div class="logo"><img src="logos/Walmart.svg" alt=""></div>
+
+                </div>
+                <hr>
+            </section>
+
+
             <section class="container">
                 <div class="popular">
                     <h2>Popular Collection</h2>
@@ -334,6 +387,25 @@
 
                     </div>
                 </div>
+                <!-- optional  -->
+
+                <section>
+                    <div class="featured">
+                        <div class="featured-image">
+                            <img src="images/studio.jpg" alt="">
+                        </div>
+                        <div class="products-place">
+                            <h1>SERVICES</h1>
+                            <p>SUNSTUDIOS offers complete imaging solutions and personalised support from our facilities
+                                in Sydney and Melbourne. From camera service to fine art printing, our
+                                highly-experienced staff are here to support you on your journey. To compliment your
+                                shoot day we offer studio hire, equipment hire and catering services. Our educational
+                                program offers practical learning and development opportunities held by industry
+                                leaders.</p>
+                            <a class="join-now" href="">Join Now <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </section>
 
 
             </section>
