@@ -1,0 +1,35 @@
+/* fent  */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital,wght@0,300;0,400;1,400&family=Luxurious+Roman&family=Merriweather:wght@400;700;900&family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+
+body {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {}
+
+.h1-font {
+    font-size: 60px;
+}
+
+.h2-font {
+    padding-left: 10%;
+}
+
+.start-journy {
+    display: flex;
+    padding-left: 10%;
+}
+
+/* img styles  */
+.img img {
+    background-image: url(images/shape-4.png);
+
+}
+
+.img {
+    padding-right: 30%;
+}
