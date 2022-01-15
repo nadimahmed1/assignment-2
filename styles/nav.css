@@ -14,3 +14,13 @@ nav ul{
 nav li:hover{
     background-color: lightgrey;
 }
+/* media querie  */
+@media only screen and (max-width:688px) {
+    nav ul{
+        justify-content: flex-start;
+        flex-direction: column;
+        grid-template-columns: repeat(3, 1fr);
+        display: grid;
+    }
+    
+}

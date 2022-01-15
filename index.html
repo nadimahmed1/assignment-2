@@ -34,12 +34,13 @@
         .start-journy {
             display: flex;
             padding-left: 10%;
+            padding-bottom: 5%;
         }
 
         /* img styles  */
         .image img {
             background-image: url(images/shape-4.png);
-            width: 150%;
+            width: 250%;
 
         }
 
@@ -203,6 +204,56 @@
             padding-top: 1%;
             padding-bottom: 2%;
         }
+
+        /* Media Queries  */
+
+        /* Mobile divices  */
+
+        @media only screen and (max-width:688px) {
+            .start-journy {
+                background-color: whitesmoke;
+                flex-direction: column;
+
+            }
+
+            .items {
+
+                grid-template-columns: repeat(1, 1fr);
+                padding-right: 2%;
+                padding-left: 0%;
+                justify-content: center;
+            }
+
+            .image img {
+                width: 300px;
+            }
+
+            .logos {
+                display: grid;
+                justify-content: center;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .featured {
+                display: grid;
+            }
+
+            .featured-image img {
+                width: 100%;
+
+            }
+
+            .see-more {
+                padding-right: 5%;
+                padding-top: 5%;
+            }
+
+            .icon {
+                padding-left: 32%;
+
+            }
+
+        }
     </style>
 </head>
 
@@ -226,8 +277,10 @@
 
                     <div class="journy">
                         <h1 class="h1-font">Start your Journey as Influencer</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci voluptatem modi nihil
-                            cupiditate quia incidunt labore.</p>
+                        <p>An influencer is someone in your niche or industry with sway over your target audience.
+                            Influencers have specialized knowledge, authority or insight into a specific subject. Their
+                            pre-existing presence in a niche makes them a useful launching pad for brands in search of
+                            credibility.</p>
                         <a class="link-button" href="">Preebook now <i class="fas fa-arrow-right"></i></a>
 
                     </div>
